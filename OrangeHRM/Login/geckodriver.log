@@ -1,0 +1,66 @@
+1658489083525	geckodriver	INFO	Listening on 127.0.0.1:54066
+1658489086598	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "54067" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Asus\\AppData\\Local\\Temp\\rust_mozprofilezWCWl5"
+1658489086884	Marionette	INFO	Marionette enabled
+1658489086889	Marionette	INFO	Listening on port 54078
+WebDriver BiDi listening on ws://localhost:54067
+Read port: 54078
+1658489087019	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Asus\\AppData\\Local\\Temp\\rust_mozprofilezWCWl5\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:54067/devtools/browser/0b7bafc3-0431-434f-b1ea-3e3189b4239c
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "http://localhost"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "http://localhost"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+1658489093540	Marionette	INFO	Stopped listening on port 54078
+1658489109747	geckodriver	INFO	Listening on 127.0.0.1:54137
+1658489112833	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "54138" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Asus\\AppData\\Local\\Temp\\rust_mozprofileI88URr"
+1658489113129	Marionette	INFO	Marionette enabled
+1658489113133	Marionette	INFO	Listening on port 54149
+WebDriver BiDi listening on ws://localhost:54138
+Read port: 54149
+1658489113260	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Asus\\AppData\\Local\\Temp\\rust_mozprofileI88URr\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:54138/devtools/browser/24c065d2-badc-4df1-b27b-74aacc059dad
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "http://localhost"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "http://localhost"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+1658489122150	Marionette	INFO	Stopped listening on port 54149
+[Parent 3136, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+1658489176104	geckodriver	INFO	Listening on 127.0.0.1:54243
+1658489179180	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "54244" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Asus\\AppData\\Local\\Temp\\rust_mozprofile7DY2Kb"
+1658489179472	Marionette	INFO	Marionette enabled
+1658489179477	Marionette	INFO	Listening on port 54255
+WebDriver BiDi listening on ws://localhost:54244
+Read port: 54255
+1658489179586	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Asus\\AppData\\Local\\Temp\\rust_mozprofile7DY2Kb\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:54244/devtools/browser/ba0854d5-a8cc-44a7-bb9d-91658e35e620
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "http://localhost"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "http://localhost"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+1658489188029	Marionette	INFO	Stopped listening on port 54255
+1658489200068	geckodriver	INFO	Listening on 127.0.0.1:54325
+1658489203147	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "54326" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Asus\\AppData\\Local\\Temp\\rust_mozprofile36kFiI"
+1658489203436	Marionette	INFO	Marionette enabled
+1658489203440	Marionette	INFO	Listening on port 54336
+WebDriver BiDi listening on ws://localhost:54326
+Read port: 54336
+1658489203577	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Asus\\AppData\\Local\\Temp\\rust_mozprofile36kFiI\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:54326/devtools/browser/59a6a564-2d4a-4482-92d0-8883b24e808d
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "http://localhost"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "http://localhost"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+1658489212032	Marionette	INFO	Stopped listening on port 54336
+1658489322139	geckodriver	INFO	Listening on 127.0.0.1:54466
+1658489325206	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "54467" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Asus\\AppData\\Local\\Temp\\rust_mozprofilebpplk3"
+1658489325491	Marionette	INFO	Marionette enabled
+1658489325496	Marionette	INFO	Listening on port 54478
+WebDriver BiDi listening on ws://localhost:54467
+Read port: 54478
+1658489325609	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Asus\\AppData\\Local\\Temp\\rust_mozprofilebpplk3\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:54467/devtools/browser/de4d101d-bd9f-4a53-83ab-7364fffe276c
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "http://localhost"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "http://localhost"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+1658489336030	Marionette	INFO	Stopped listening on port 54478
