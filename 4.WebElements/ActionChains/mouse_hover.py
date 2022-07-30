@@ -20,8 +20,9 @@ class MouseHover():
         login_btn.click()
         time.sleep(5)
 
-        leave_menu = driver.find_element(By.XPATH, '//*[@id="menu_leave_viewLeaveModule"]/b')
         actions = ActionChains(driver)
+
+        leave_menu = driver.find_element(By.XPATH, '//*[@id="menu_leave_viewLeaveModule"]/b')
         actions.move_to_element(leave_menu).perform()
         time.sleep(2)
 
