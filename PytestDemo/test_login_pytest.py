@@ -18,6 +18,7 @@ def browser_config():
     driver.close()
 
 @pytest.mark.order(2)
+@pytest.mark.valid
 def test_login_001_valid(browser_config):
     username = driver.find_element(By.ID, 'txtUsername')
     password = driver.find_element(By.ID, 'txtPassword')
@@ -28,6 +29,7 @@ def test_login_001_valid(browser_config):
     login_btn.click()
 
 @pytest.mark.order(1)
+@pytest.mark.invalid
 def test_login_002_invalid(browser_config):
     username = driver.find_element(By.ID, 'txtUsername')
     password = driver.find_element(By.ID, 'txtPassword')
@@ -39,6 +41,7 @@ def test_login_002_invalid(browser_config):
 
 @pytest.mark.order(3)
 @pytest.mark.skip('System unstable')
+@pytest.mark.invalid
 def test_login_003_invalid(browser_config):
     username = driver.find_element(By.ID, 'txtUsername')
     password = driver.find_element(By.ID, 'txtPassword')
@@ -46,4 +49,24 @@ def test_login_003_invalid(browser_config):
 
     username.send_keys("")
     password.send_keys('')
+    login_btn.click()
+
+@pytest.mark.order(4)
+@pytest.mark.invalid
+def test_login_004_invalid(browser_config):
+    username = driver.find_element(By.ID, 'txtUsername')
+    password = driver.find_element(By.ID, 'txtPassword')
+    login_btn = driver.find_element(By.ID, 'btnLogin')
+
+    username.send_keys("")
+    password.send_keys('')
+    login_btn.click()
+
+def test_home_001_valid(browser_config):
+    username = driver.find_element(By.ID, 'txtUsername')
+    password = driver.find_element(By.ID, 'txtPassword')
+    login_btn = driver.find_element(By.ID, 'btnLogin')
+
+    username.send_keys("Admin")
+    password.send_keys('admin123')
     login_btn.click()
