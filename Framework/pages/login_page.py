@@ -9,9 +9,9 @@ class LoginPage():
         self.driver = driver
 
     def login_orange(self, username, password):
-        username_field = self.driver.find_element(By.ID, "txtUsername")
-        password_field = self.driver.find_element(By.ID, "txtPassword")
-        login_button = self.driver.find_element(By.ID, "btnLogin")
+        username_field = self.driver.find_element(By.NAME, "username")
+        password_field = self.driver.find_element(By.NAME, "password")
+        login_button = self.driver.find_element(By.XPATH, '//*[@id="app"]/div[1]/div/div[1]/div/div[2]/div[2]/form/div[3]/button')
 
         username_field.clear()
         username_field.send_keys(username)
